@@ -17,7 +17,7 @@ void inOrder(TreeNode * node){
     cout<<node->data<<" ";
     inOrder(node->right);
 }
-
+// size code
 int size(TreeNode * node){
     return node != nullptr ? size(node->left)+size(node->right)+1 : 0;
 }
